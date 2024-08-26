@@ -1,0 +1,485 @@
+######### Agreement ##########
+
+### 1 ###
+
+Franca mangia la mela. (1 0.003 14)
+
+# Franca eats the pear.
+
+### 2 ###
+
+Franca mangia. (1 0.000 9)
+
+# Franca eats.
+
+### 3 ###
+
+io mangio il gallo. (2 0.001 14)
+
+# I eat the rooster.
+
+### 4 ###
+
+tu apri il libro. (2 0.001 14)
+
+# You open the book.
+
+### 5 ###
+
+# Adjective agreement
+
+Giacomo mangia le mele verdi. (1 0.001 17)
+
+# Giacomo eats the green pears.
+
+### 6 ###
+
+tu apri il libro nero. (2 0.001 17)
+
+# You open the black book.
+
+### 7 ###
+
+## Agreement error ##
+
+Franca mangio la mela. (0 0.000 11)
+
+# Franca eat(1, sg) the pear.
+
+### 8 ###
+
+Giacomo mangia il mela. (0 0.001 9)
+
+# Giacomo eats the (masc DET) pear (fem).
+
+### 9 ###
+
+Franca mangia la mela in la bagno. (0 0.001 16)
+
+# Franca eats the pear in the (fem DET) bathroom (masc).
+
+### 10 ###
+
+io mangia.  (0 0.000 6)
+
+# I eats (3, sg).
+
+### 11 ###
+
+lei legge il libro interessanti. (0 0.001 12)
+
+# He reads the interesting (pl) book (sg).
+
+### 12 ###
+
+lui mangia la mela nero. (0 0.000 12)
+
+# He eats the black (masc) pear (fem).
+
+########## Adjective placement and movement ##########
+
+### 13 ###
+
+# Postnominal adjective
+
+Franca mangia la mela nera. (1 0.001 17)
+
+# Franca eats the black pear.
+
+### 14 ###
+
+# prenominal adjective
+
+Franca riceve il primo premio. (1 0.001 17)
+
+# Franca receives the first price.
+
+### 15 ###
+
+# Two adjectives modifying one noun
+
+lui legge il libro nero vecchio. (1 0.001 20)
+
+### 16 ###
+
+# Adjective movement for adjectives that can appear in both positions
+
+lui legge il libro vecchio. (1 0.000 17)
+
+# He reads the old book.
+
+lui legge il vecchio libro. (1 0.000 17)
+
+# He reads the old book.
+
+### 17 ###
+
+# prenominal adjective in postnominal position
+
+France riceve il premio primo. (0 0.000 0)
+
+# Franca receives the first price.
+
+### 18 ###
+
+# postnominal adjective in prenominal position
+
+lui legge il nero libro. (0 0.000 0)
+
+# He reads the black book.
+
+### 19 ###
+
+# Adjectives that can appear both pre- and postnominal can only appeare once
+
+lui legge il vecchio libro vecchio. (0 0.000 0)
+
+# He reads the old book old.
+
+########## Adverbs ##########
+
+### 20 ###
+
+# postverbial adverb
+
+Franca mangia lentamente. (1 0.000 12)
+
+# Franca eats slowly.
+
+### 21 ###
+
+# preverbial adverb should not work
+
+Franca lentamente mangia. (0 0.000 0)
+
+# Franca slowly eats.
+
+### 22 ###
+
+# adverb modifying an adjective independent of number and person
+
+Franca mangia la mela veramente nera. (1 0.001 19)
+
+# Franca eats the truly black pear.
+
+### 23 ###
+
+il gallo legge il libro molto interessante. (1 0.001 21)
+
+# The rooster reads the very interesting book.
+
+### 24 ###
+
+il gallo legge i libri molto interessanti. (1 0.001 21)
+
+# The rooster reads the very interesting books.
+
+### 25 ###
+
+# adverb position that should not work
+
+lui mangia la mela lentamente. (0 0.000 0)
+
+# He eats the slowly pear.
+
+########## Passive ##########
+
+### 26 ###
+
+# passive sentence
+
+il libro E scritto da Franca. (1+1 0.001 24)
+
+# The book is written by Franca.
+
+### 27 ###
+
+una mela E mangiata da Giacomo. (1+1 0.001 24)
+
+# A pear is eaten by Giacomo.
+
+### 28 ###
+
+# agreement error
+
+il gallo E mangiata da lui. (0 0.000 19)
+
+# The rooster (masc) is eaten (fem) by him.
+
+### 29 ###
+
+# null subject
+
+il libro E scritto. (1 0.000 13)
+
+# The book is written.
+
+### 30 ###
+
+# null subject with adjunct PP
+
+il libro E scritto in la scuola. (1 0.001 24)
+
+# The book is written in the school.
+
+########## Prepositional phrases ##########
+
+### 31 ###
+
+Franca mangia la mela in il bagno. (1+1 0.000 29)
+
+# Franca eats the black pear in the bathroom.
+
+### 32 ###
+
+# recursive PPs
+
+Franca mangia la mela in il bagno in una scuola. (2+3 0.000 52)
+
+# Franca eats the black pear in the bathroom in a school.
+
+### 33 ###
+
+lei legge il libro con Giacomo. (1+1 0.001 27)
+
+# She reads the book with Giacomo.
+
+### 34 ###
+
+il gallo apre la finestra in il bagno. (1+1 0.001 31)
+
+# The rooster opens the window in the bathroom.
+
+########## Ditransitives ##########
+
+### 35 ###
+
+# Ditransitive verb dare (to give)
+
+lui ha dato il libro a il gallo.  (1+1 0.001 32)
+
+# He has given the book to the rooster.
+
+### 36 ###
+
+loro danno il libro a Giacomo. (1 0.001 28)
+
+# They give the book to Giacomo.
+
+### 37 ###
+
+# missing verb arguments
+
+loro danno il libro. (0 0.000 14)
+
+# They give the book.
+
+### 38 ###
+
+loro danno a Giacomo. (0 0.001 20)
+
+# They give to Giacomo.
+
+########## Pro-Drop ##########
+
+### 39 ###
+
+io mangio la mela. (2 0.000 14)
+
+# I eat the pear.
+
+# two solutions because it could be either feminine or masculine subject
+
+### 40 ###
+
+mangio la mela. (1 0.000 11)
+
+# (I) eat the pear.
+
+### 41 ###
+
+mangia la mela in il bagno. (1+1 0.000 26)
+
+# (He/She) eats the pear in the bathroom.
+
+### 42 ###
+
+# pro-drop in ditransitive verb
+
+danno il libro a Giacomo. (1 0.000 25)
+
+# (They) give the book to Giacomo.
+
+### 43 ###
+
+apri la finestra. (1 0.000 11)
+
+# (You) open the window.
+
+### 44 ###
+
+lei legge il libro. (1 0.000 14)
+
+# She reads the book.
+
+### 45 ###
+
+legge il libro. (1 0.000 11)
+
+# (He/She) reads the book.
+
+########## Possessive pronoun constructions ##########
+
+### 46 ###
+
+Franca mangia la mia mela. (1 0.000 16)
+
+# Franca eats my pear.
+
+### 47 ###
+
+Franca mangia la mia mela nera. (1 0.000 19)
+
+# Franca eats my black pear.
+
+### 48 ###
+
+Giacomo legge il mio libro. (1 0.000 16)
+
+# Giacomo reads my book.
+
+### 49 ###
+
+# possessive pronoun in passive sentence
+
+il mio libro E scritto da Franca. (1+1 0.000 26)
+
+# My book is written by Franca.
+
+### 50 ###
+
+# Non-possesive pronoun used as such
+
+Franca legge il io libro. (0 0.000 0)
+
+# Franca reads the I book.
+
+########## Tenses ##########
+
+### 51 ###
+
+# present perfect (requires auxiliary)
+
+lui ha scritto il libro. (1+1 0.000 16)
+
+# He has written the book.
+
+### 52 ###
+
+noi abbiamo scritto uno libro. (1 0.001 16)
+
+# we have written a book.
+
+### 53 ###
+
+# imperfect tense
+
+lui scriva il libro. (1 0.000 14)
+
+# He wrote the book.
+
+### 54 ###
+
+# imperfect tense with pro-drop
+
+scriva il libro. (1 0.000 11)
+
+# He/she wrote the book.
+
+### 55 ###
+
+# No agreement in imperfect
+
+noi scriva il libro. (0 0.000 11)
+
+# We write(3 sg) the book.
+
+### 56 ###
+
+# No agreement in present perfect
+
+noi ha scritto il libro. (0 0.000 13)
+
+# We has written the book.
+
+########## Other tests ##########
+
+### 57 ###
+
+# Optional transitivity
+
+Franca mangia. (1 0.000 9)
+
+# Franca eats.
+
+### 58 ###
+
+io mangio. (2 0.000 9)
+
+# I eat.
+
+### 59 ###
+
+# Plus pro-drop
+
+mangio. (1 0.000 6)
+
+# (I) eat.
+
+### 60 ###
+
+# Imperative sentence
+
+apri la finestra! (1 0.000 11)
+
+## Things that shouldn't work ##
+
+### 61 ###
+
+# Non-imperative form used in such a context
+
+apre la finestra! (0 0.000 8)
+
+# open (3 sg) the window
+
+### 62 ###
+
+# Missing determiner
+
+Franca mangia mia mela. (0 0.001 0)
+
+# Franca eats (the) my pear.
+
+### 63 ###
+
+# Too many arguments
+
+Franca mangia la mela la scuola. (0 0.000 0)
+
+# Franca eats the pear the school.
+
+### 64 ###
+
+# Intransitive verb
+
+Giacomo nuota. (1 0.000 9)
+
+# Giacomo swims
+
+### 65 ###
+
+Giacomo nuota in la scuola. (1 0.000 20)
+
+# Giacomo swims in the school.
+
+# 66 sentences, 0.031 CPU secs total, 0.003 CPU secs max (08/26/24)
